@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-19T15:55:21 EET" name="Main Suite" finished-at="2022-05-19T15:56:27 EET" duration-ms="66170">
+    <groups>
+    </groups>
+    <test started-at="2022-05-19T15:55:21 EET" name="Test" finished-at="2022-05-19T15:56:27 EET" duration-ms="66170">
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:23 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:55:42 EET" duration-ms="18788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="RefreshPageAfterEnteringData(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:42 EET" name="RefreshPageAfterEnteringData" description="User enters valid credintial then refresh page to delete data in all textfield" data-provider="validlogincredintial" finished-at="2022-05-19T15:55:43 EET" duration-ms="1242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RefreshPageAfterEnteringData -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:43 EET" name="Close" finished-at="2022-05-19T15:55:44 EET" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:44 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:55:46 EET" duration-ms="2822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="loginKeyEnter(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:46 EET" name="loginKeyEnter" description="User enters valid credintial and Presses Enter Keyboard to enter homepage" data-provider="validlogincredintial" finished-at="2022-05-19T15:55:47 EET" duration-ms="941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginKeyEnter -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:47 EET" name="Close" finished-at="2022-05-19T15:55:48 EET" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:48 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:55:51 EET" duration-ms="2983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:51 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:55:52 EET" duration-ms="868" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_userr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongCredintial -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:52 EET" name="Close" finished-at="2022-05-19T15:55:52 EET" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:53 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:55:55 EET" duration-ms="2644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:55 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:55:56 EET" duration-ms="826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standarduser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongCredintial -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:56 EET" name="Close" finished-at="2022-05-19T15:55:57 EET" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:57 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:55:59 EET" duration-ms="2573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:59 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:56:00 EET" duration-ms="775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongCredintial -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:00 EET" name="Close" finished-at="2022-05-19T15:56:00 EET" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:00 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:56:03 EET" duration-ms="2480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:03 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:56:03 EET" duration-ms="564" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongCredintial -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:03 EET" name="Close" finished-at="2022-05-19T15:56:04 EET" duration-ms="471" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:04 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:56:06 EET" duration-ms="2457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:06 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:56:07 EET" duration-ms="523" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongCredintial -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:07 EET" name="Close" finished-at="2022-05-19T15:56:07 EET" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:07 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:56:10 EET" duration-ms="2610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:10 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:56:10 EET" duration-ms="314" status="PASS">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+            <param index="1">
+              <value is-null="true"/>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongCredintial -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:10 EET" name="Close" finished-at="2022-05-19T15:56:11 EET" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:11 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:56:14 EET" duration-ms="3547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:14 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:56:15 EET" duration-ms="809" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_saucee]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongCredintial -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:15 EET" name="Close" finished-at="2022-05-19T15:56:16 EET" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:16 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:56:18 EET" duration-ms="2565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:18 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:56:19 EET" duration-ms="750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secretsauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongCredintial -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:19 EET" name="Close" finished-at="2022-05-19T15:56:20 EET" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:20 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:56:22 EET" duration-ms="2521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:22 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:56:23 EET" duration-ms="783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongCredintial -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:23 EET" name="Close" finished-at="2022-05-19T15:56:23 EET" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:23 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:56:26 EET" duration-ms="2529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:26 EET" name="validLogin" description="User enters valid credintial and clicks on login btn to enter homepage" data-provider="validlogincredintial" finished-at="2022-05-19T15:56:27 EET" duration-ms="890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:27 EET" name="Close" finished-at="2022-05-19T15:56:27 EET" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Main Suite -->
+</testng-results>

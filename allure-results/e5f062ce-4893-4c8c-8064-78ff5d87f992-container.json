@@ -1,0 +1,1 @@
+{"uuid":"e5f062ce-4893-4c8c-8064-78ff5d87f992","name":"pages.BasePage.Close","children":["315f209f-25cd-41d5-a6f4-96b57e4031c0"],"description":"","befores":[],"afters":[{"name":"Close","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1652949431186,"stop":1652949431595}],"start":1652949431186,"stop":1652949431595}
