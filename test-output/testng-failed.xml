@@ -5,8 +5,9 @@
     <classes>
       <class name="tests.LoginPageTest">
         <methods>
+          <include name="validLogin"/>
           <include name="Close"/>
-          <include name="loginWithWrongCredintial" invocation-numbers="3 4 5"/>
+          <include name="loginWithWrongCredintial"/>
           <include name="Init"/>
         </methods>
       </class> <!-- tests.LoginPageTest -->

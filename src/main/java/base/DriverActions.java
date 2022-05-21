@@ -18,8 +18,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class DriverActions extends DriverContext {
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 
-	// ************************************URL
-	// Navigation**********************************************
+	// ************************************URLNavigation**********************************************
 	// open url using navigate to track history
 	public void openURL_History(String URL) {
 		driver.navigate().to(URL);
@@ -41,7 +40,7 @@ public class DriverActions extends DriverContext {
 		Actions action = new Actions(driver);
 		action.sendKeys(key).perform();
 	}
-	// ***************************************Buttons**************************************************
+	// ****************************************Buttons************************************************
 	// click on button
 	public void clickOn(By element) {
 		wait.until(ExpectedConditions.elementToBeClickable(element));
@@ -62,7 +61,7 @@ public class DriverActions extends DriverContext {
 		return driver.findElement(element).getText();
 	}
 
-	// **************************************WindowClosure*********************************************
+	// **************************************WindowClosure***************************************
 	public void closeCurrentWindow() {
 		driver.close();
 	}
@@ -71,12 +70,12 @@ public class DriverActions extends DriverContext {
 		driver.quit();
 	}
 
-	// ******************************************Cookies***********************************************
+	// ******************************************Cookies*****************************************
 	public void deleteAllCookies() {
 		driver.manage().deleteAllCookies();
 	}
 
-	// ***************************************SearchforElements**************************************
+	// ***************************************CheckElements**************************************
 	public boolean isDisplayed(By element) {
 		boolean flag;
 		if (driver.findElement(element).isDisplayed()) {
@@ -97,8 +96,17 @@ public class DriverActions extends DriverContext {
 		return flag;
 	}
 
-	// ************************************Screen
-	// shots********************************
+	public boolean checkElementType(By element,String type)
+	{
+		boolean flag = false;
+		if (driver.findElement(element).getAttribute("type").equals(type)){
+			flag = true;
+		}else {
+			flag = false;
+		}
+		return flag;
+	}
+	// ************************************Screenshots***************************************
 	public void takeScreenShot(String TestMethodName, WebDriver driver) {
 		TakesScreenshot ts = (TakesScreenshot) driver;
 		File source = ts.getScreenshotAs(OutputType.FILE);

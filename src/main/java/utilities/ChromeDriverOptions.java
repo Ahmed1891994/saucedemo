@@ -12,7 +12,6 @@ public class ChromeDriverOptions extends DriverContext implements Browsers{
 	public void SetupBrowser() {
 		ChromeOptions options = new ChromeOptions();
 		WebDriverManager.chromedriver().setup();
-		//options.addArguments("");
 		options.addArguments("--window-size=1024,768");
 		driver = (WebDriver) new ChromeDriver(options);
 	}

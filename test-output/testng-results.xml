@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-19T15:55:21 EET" name="Main Suite" finished-at="2022-05-19T15:56:27 EET" duration-ms="66170">
+  <suite started-at="2022-05-21T13:40:14 EET" name="Main Suite" finished-at="2022-05-21T13:41:47 EET" duration-ms="93380">
     <groups>
     </groups>
-    <test started-at="2022-05-19T15:55:21 EET" name="Test" finished-at="2022-05-19T15:56:27 EET" duration-ms="66170">
+    <test started-at="2022-05-21T13:40:14 EET" name="Test" finished-at="2022-05-21T13:41:47 EET" duration-ms="93380">
       <class name="tests.LoginPageTest">
-        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:23 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:55:42 EET" duration-ms="18788" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:40:15 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:40:43 EET" duration-ms="27689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="RefreshPageAfterEnteringData(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:42 EET" name="RefreshPageAfterEnteringData" description="User enters valid credintial then refresh page to delete data in all textfield" data-provider="validlogincredintial" finished-at="2022-05-19T15:55:43 EET" duration-ms="1242" status="PASS">
+        <test-method signature="RefreshPageAfterEnteringData(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:40:43 EET" name="RefreshPageAfterEnteringData" description="User enters valid credintial then refresh page to delete data in all textfield" data-provider="validlogincredintial" finished-at="2022-05-21T13:40:44 EET" duration-ms="1238" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,39 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RefreshPageAfterEnteringData -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:43 EET" name="Close" finished-at="2022-05-19T15:55:44 EET" duration-ms="599" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:40:44 EET" name="Close" finished-at="2022-05-21T13:40:45 EET" duration-ms="544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:44 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:55:46 EET" duration-ms="2822" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:40:45 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:40:48 EET" duration-ms="2937" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="loginKeyEnter(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:46 EET" name="loginKeyEnter" description="User enters valid credintial and Presses Enter Keyboard to enter homepage" data-provider="validlogincredintial" finished-at="2022-05-19T15:55:47 EET" duration-ms="941" status="PASS">
+        <test-method signature="checkPasswordNotCopied()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:40:48 EET" name="checkPasswordNotCopied" description="Check password written is not copied" finished-at="2022-05-21T13:40:48 EET" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPasswordNotCopied -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:40:48 EET" name="Close" finished-at="2022-05-21T13:40:49 EET" duration-ms="512" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:40:49 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:40:51 EET" duration-ms="2457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="isPasswordMasked()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:40:51 EET" name="isPasswordMasked" description="Check password written is masked" finished-at="2022-05-21T13:40:52 EET" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPasswordMasked -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:40:52 EET" name="Close" finished-at="2022-05-21T13:40:52 EET" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:40:52 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:40:55 EET" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="loginKeyEnter(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:40:55 EET" name="loginKeyEnter" description="User enters valid credintial and Presses Enter Keyboard to enter homepage" data-provider="validlogincredintial" finished-at="2022-05-21T13:40:56 EET" duration-ms="1066" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,15 +75,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginKeyEnter -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:47 EET" name="Close" finished-at="2022-05-19T15:55:48 EET" duration-ms="516" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:40:56 EET" name="Close" finished-at="2022-05-21T13:40:56 EET" duration-ms="618" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:48 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:55:51 EET" duration-ms="2983" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:40:56 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:40:59 EET" duration-ms="2435" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:51 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:55:52 EET" duration-ms="868" status="PASS">
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:40:59 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-21T13:41:00 EET" duration-ms="859" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -80,15 +104,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithWrongCredintial -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:52 EET" name="Close" finished-at="2022-05-19T15:55:52 EET" duration-ms="510" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:00 EET" name="Close" finished-at="2022-05-21T13:41:00 EET" duration-ms="625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:53 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:55:55 EET" duration-ms="2644" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:00 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:41:03 EET" duration-ms="2397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:55 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:55:56 EET" duration-ms="826" status="PASS">
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:03 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-21T13:41:03 EET" duration-ms="784" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -109,15 +133,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithWrongCredintial -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:56 EET" name="Close" finished-at="2022-05-19T15:55:57 EET" duration-ms="559" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:03 EET" name="Close" finished-at="2022-05-21T13:41:04 EET" duration-ms="514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:57 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:55:59 EET" duration-ms="2573" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:04 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:41:06 EET" duration-ms="2298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:55:59 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:56:00 EET" duration-ms="775" status="PASS">
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:06 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-21T13:41:07 EET" duration-ms="817" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -138,15 +162,44 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithWrongCredintial -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:00 EET" name="Close" finished-at="2022-05-19T15:56:00 EET" duration-ms="459" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:07 EET" name="Close" finished-at="2022-05-21T13:41:08 EET" duration-ms="555" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:00 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:56:03 EET" duration-ms="2480" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:08 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:41:10 EET" duration-ms="2422" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:03 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:56:03 EET" duration-ms="564" status="PASS">
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:10 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-21T13:41:11 EET" duration-ms="774" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user@]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongCredintial -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:11 EET" name="Close" finished-at="2022-05-21T13:41:11 EET" duration-ms="516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:11 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:41:14 EET" duration-ms="2396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:14 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-21T13:41:14 EET" duration-ms="571" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -165,15 +218,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithWrongCredintial -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:03 EET" name="Close" finished-at="2022-05-19T15:56:04 EET" duration-ms="471" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:14 EET" name="Close" finished-at="2022-05-21T13:41:15 EET" duration-ms="525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:04 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:56:06 EET" duration-ms="2457" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:15 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:41:18 EET" duration-ms="3345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:06 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:56:07 EET" duration-ms="523" status="PASS">
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:18 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-21T13:41:19 EET" duration-ms="536" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -192,15 +245,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithWrongCredintial -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:07 EET" name="Close" finished-at="2022-05-19T15:56:07 EET" duration-ms="340" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:19 EET" name="Close" finished-at="2022-05-21T13:41:19 EET" duration-ms="475" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:07 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:56:10 EET" duration-ms="2610" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:19 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:41:22 EET" duration-ms="2440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:10 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:56:10 EET" duration-ms="314" status="PASS">
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:22 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-21T13:41:22 EET" duration-ms="332" status="PASS">
           <params>
             <param index="0">
               <value is-null="true"/>
@@ -217,15 +270,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithWrongCredintial -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:10 EET" name="Close" finished-at="2022-05-19T15:56:11 EET" duration-ms="638" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:22 EET" name="Close" finished-at="2022-05-21T13:41:22 EET" duration-ms="398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:11 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:56:14 EET" duration-ms="3547" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:22 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:41:25 EET" duration-ms="2430" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:14 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:56:15 EET" duration-ms="809" status="PASS">
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:25 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-21T13:41:26 EET" duration-ms="776" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -246,15 +299,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithWrongCredintial -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:15 EET" name="Close" finished-at="2022-05-19T15:56:16 EET" duration-ms="505" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:26 EET" name="Close" finished-at="2022-05-21T13:41:26 EET" duration-ms="474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:16 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:56:18 EET" duration-ms="2565" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:26 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:41:29 EET" duration-ms="2849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:18 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:56:19 EET" duration-ms="750" status="PASS">
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:29 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-21T13:41:30 EET" duration-ms="808" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -275,15 +328,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithWrongCredintial -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:19 EET" name="Close" finished-at="2022-05-19T15:56:20 EET" duration-ms="421" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:30 EET" name="Close" finished-at="2022-05-21T13:41:30 EET" duration-ms="452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:20 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:56:22 EET" duration-ms="2521" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:30 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:41:33 EET" duration-ms="2405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:22 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-19T15:56:23 EET" duration-ms="783" status="PASS">
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:33 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-21T13:41:33 EET" duration-ms="837" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -304,15 +357,73 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithWrongCredintial -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:23 EET" name="Close" finished-at="2022-05-19T15:56:23 EET" duration-ms="504" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:34 EET" name="Close" finished-at="2022-05-21T13:41:34 EET" duration-ms="482" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->
-        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:23 EET" name="Init" description="setup browser configuration" finished-at="2022-05-19T15:56:26 EET" duration-ms="2529" status="PASS">
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:34 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:41:37 EET" duration-ms="2687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Init -->
-        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:26 EET" name="validLogin" description="User enters valid credintial and clicks on login btn to enter homepage" data-provider="validlogincredintial" finished-at="2022-05-19T15:56:27 EET" duration-ms="890" status="PASS">
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:37 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-21T13:41:37 EET" duration-ms="766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce#]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongCredintial -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:37 EET" name="Close" finished-at="2022-05-21T13:41:38 EET" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:38 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:41:41 EET" duration-ms="3119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="loginWithWrongCredintial(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:41 EET" name="loginWithWrongCredintial" description="User enters Invalid credintial and clicks on login btn then checking error message appeared" data-provider="invalidlogincredintial" finished-at="2022-05-21T13:41:42 EET" duration-ms="746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Epic sadface: Sorry, this user has been locked out.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongCredintial -->
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:42 EET" name="Close" finished-at="2022-05-21T13:41:42 EET" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+        <test-method is-config="true" signature="Init()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:42 EET" name="Init" description="setup browser configuration" finished-at="2022-05-21T13:41:45 EET" duration-ms="2624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Init -->
+        <test-method signature="validLogin(java.lang.String,java.lang.String)[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:45 EET" name="validLogin" description="User enters valid credintial and clicks on login btn to enter homepage" data-provider="validlogincredintial" finished-at="2022-05-21T13:41:46 EET" duration-ms="1348" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -328,7 +439,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLogin -->
-        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@5be46f9d]" started-at="2022-05-19T15:56:27 EET" name="Close" finished-at="2022-05-19T15:56:27 EET" duration-ms="473" status="PASS">
+        <test-method is-config="true" signature="Close()[pri:0, instance:tests.LoginPageTest@7a220c9a]" started-at="2022-05-21T13:41:46 EET" name="Close" finished-at="2022-05-21T13:41:47 EET" duration-ms="647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Close -->

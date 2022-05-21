@@ -60,6 +60,36 @@ public class LoginPageTest extends BasePage{
 		Assert.assertTrue(loginpage.checkIFLoginCredTextFieldEmpty());
 	}
 	
+	@Test(description = "Check password written is masked")
+	public void isPasswordMasked() {
+		LoginPage loginpage = new LoginPage();
+		loginpage.enterPassword("pass");
+		Assert.assertTrue(loginpage.checkPasswordIsMasked());
+	}
+	
+	@Test(description = "Check password written is not copied")
+	public void checkPasswordNotCopied() {
+		LoginPage loginpage = new LoginPage();
+		loginpage.enterPassword("pass");
+		loginpage.checkPasswordCantCopied();
+		Assert.assertEquals(loginpage.checkUsername(),"");
+	}
+	
+	/*@Test(dataProvider = "invalidlogincredintial" , description = "User enters valid credintial then refresh page to delete data in all textfield")
+	public void unsuccessfulAttemptLoginLimitation(String user,String pass,String errormessage) {
+		LoginPage loginpage = new LoginPage();
+		for(int index = 0 ; index < 4 ; index++)
+		{
+			loginpage.enterUsername(user+"x");
+			loginpage.enterPassword(pass);
+			loginpage.clickLogInBtn();
+			Assert.assertEquals(loginpage.checkWrongCredintialMessage(),errormessage);
+			if(index == 3)
+				Assert.assertEquals(loginpage.checkWrongCredintialMessage(),"limited attemp");
+		}
+		
+	}*/
+	
 	@DataProvider(name="invalidlogincredintial")
 	public Object[][] invalidLoginCredintials() throws IOException
 	{

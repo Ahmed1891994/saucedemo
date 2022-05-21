@@ -54,9 +54,30 @@ public class LoginPage {
 		return driverActions.textGet(wrongcredintial);
 	}
 	
+	public String checkPassword()
+	{
+		return driverActions.textGet(password_txtfld_signin);
+	}
+	
+	public String checkUsername()
+	{
+		return driverActions.textGet(username_txtfld_signin);
+	}
+	
 	public boolean checkIFLoginCredTextFieldEmpty()
 	{
 		return driverActions.textGet(username_txtfld_signin).isEmpty();
+	}
+	
+	public boolean checkPasswordIsMasked()
+	{
+		return driverActions.checkElementType(password_txtfld_signin,"password");
+	}
+	
+	public void checkPasswordCantCopied()
+	{
+		String copieddata = driverActions.textGet(password_txtfld_signin);
+		driverActions.textSet(username_txtfld_signin, copieddata);
 	}
 	
 }
