@@ -31,9 +31,9 @@ TestNG : From eclipse marketplace
 * Reporting using Allure
 * Web Driver Manager
 
-## What to improve?
+## 📝 What to improve?
 * Apply open/closed principle on Excelreader to accept different extentions xlsx and xls
 * Multi Threading by running on different machines and browsers at the same time (docker)
 
-## Attachments
+## 📝 Attachments
 [Testcases](https://docs.google.com/spreadsheets/d/1eIbkE7Af8h3hu-nlZMsJ4q_L2cMxFzR7/edit?usp=sharing&ouid=103488958860795063730&rtpof=true&sd=true)
